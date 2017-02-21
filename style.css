@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Code Pro", Cousine, "Droid Sans Mono", monospace;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5em; }
+
+p {
+  margin: 0;
+  padding: 0 0 1.5em; }
+
+strong, b {
+  font-weight: 500; }
+
+h1, h2 {
+  padding: 0; }
+
+h2, h3, h4, h5, h6 {
+  font-weight: 500;
+  margin-top: .5em; }
+
+h1 {
+  font-size: 3em;
+  font-weight: 900;
+  margin: 0 0 .7em;
+  text-align: center; }
+  @media (min-width: 820px) {
+    h1 {
+      line-height: 125px;
+      vertical-align: center;
+      text-align: left; } }
+
+h2 {
+  font-size: 2em; }
+
+.person {
+  width: 121px;
+  height: 121px;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 0 auto 1em;
+  display: block; }
+  @media (min-width: 820px) {
+    .person {
+      margin: 0 0 0 -150px;
+      float: left; } }
+
+.wrap {
+  width: 500px;
+  margin: 8em auto 2em; }
+
+.center {
+  margin: 0 auto;
+  display: block; }
+
+a {
+  color: #4db380;
+  text-decoration: none; }
+  a:hover {
+    color: #59c08c;
+    text-decoration: underline; }
+
+footer {
+  margin-top: 1em;
+  color: #555;
+  font-size: .9em; }
