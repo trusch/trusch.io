@@ -1,0 +1,4 @@
+Options +Indexes
+Redirect /http-echo /
+Redirect /skydns-pod-announcer /
+Redirect /alpine /
