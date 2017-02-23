@@ -1,4 +1,12 @@
 Options +Indexes
-Redirect /http-echo /
-Redirect /skydns-pod-announcer /
+
 Redirect /alpine /
+Redirect /etcd /
+Redirect /http-echo /
+Redirect /jamesc /
+Redirect /jamesd /
+Redirect /jwtd /
+Redirect /jwtd-proxy /
+Redirect /mongodb /
+Redirect /skydns /
+Redirect /skydns-pod-announcer /
