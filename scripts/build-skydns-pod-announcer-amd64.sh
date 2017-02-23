@@ -9,7 +9,7 @@ acbuild --debug begin
 # In the event of the script exiting, end the build
 trap "{ export EXT=$?; acbuild --debug end && exit $EXT; }" EXIT
 
-acbuild --debug set-name kzw.io/skydns-pod-announcer
+acbuild --debug set-name trusch.io/skydns-pod-announcer
 acbuild --debug dependency add trusch.io/alpine
 acbuild --debug copy build/skydns-pod-announcer.amd64 /bin/skydns-pod-announcer
 acbuild --debug set-exec -- /bin/skydns-pod-announcer

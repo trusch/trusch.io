@@ -11,7 +11,7 @@ acbuild --debug begin
 # In the event of the script exiting, end the build
 trap "{ export EXT=$?; acbuild --debug end && exit $EXT; }" EXIT
 
-acbuild --debug set-name kzw.io/etcd
+acbuild --debug set-name trusch.io/etcd
 acbuild --debug dependency add trusch.io/alpine
 acbuild --debug copy build/etcd.amd64 /bin/etcd
 acbuild --debug copy build/etcdctl.amd64 /bin/etcdctl
